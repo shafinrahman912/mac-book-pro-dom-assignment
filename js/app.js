@@ -26,7 +26,7 @@ function addPromo() {
         const promoCode = document.getElementById('promoInput').value;
         // case insensitive promo
         if (promoCode == "" || promoCode.toLowerCase() != 'stevekaku')
-            window.alert("Invalid promo");
+            window.alert("Invalid promo. Please enter 'stevekaku' as promo....");
 
         else if (promoCode.toLowerCase() == 'stevekaku') {
             let discountedPrice = 0;
